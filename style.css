@@ -1,0 +1,24 @@
+ .main__ttl {
+     color: blue;
+ }
+
+ .content {
+     font-size: px;
+ }
+
+ .relative {
+     position: relative;
+     top: px;
+ }
+
+ .blue-box {
+     width: px;
+     height: px;
+     background-color: blue;
+ }
+
+ .absolute {
+     position: absolute;
+     top: - px;
+     left: px;
+ }

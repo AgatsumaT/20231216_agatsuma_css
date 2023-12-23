@@ -1,24 +1,39 @@
- .main__ttl {
-     color: blue;
- }
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
 
- .content {
-     font-size: px;
- }
+.main__ttl {
+    color: blue;
+    font-size: 30px;
+    margin: 10px;
+}
 
- .relative {
-     position: relative;
-     top: 100px;
- }
+ul {
+    margin: 15px;
+}
 
- .blue-box {
-     width: 500px;
-     height: 100px;
-     background-color: blue;
- }
+li {
+    display: inline-block;
+}
 
- .absolute {
-     position: absolute;
-     top: -500px;
-     left: 800px;
- }
+.content {
+    margin-top: 200px;
+    font-size: 60px;
+}
+
+.relative {
+    position: relative;
+}
+
+.blue-box {
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+}
+
+.absolute {
+    position: absolute;
+    top: -500px;
+    left: 800px;
+}

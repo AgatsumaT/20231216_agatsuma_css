@@ -1,23 +1,38 @@
-.flex {
+header {
+    max-width: auto;
+}
+
+.flex1 {
     display: flex;
-    flex-direction: row-reverse;
-    margin: -60px;
+    aligin-items: flex-end;
 }
 
 .main__ttl {
+    display: inline-block;
     color: blue;
     font-size: 30px;
-    margin: 20px;
+    margin: 20px 20px;
 }
 
+.flex2 {
+    display: flex;
+    justify-content: flex-end;
+
+}
 ul {
-    margin: 15px;
+    display: inline-block;
     color: blue;
     font-size: 20px;
+    margin: -45px 5px;
 }
 
 li {
     display: inline-block;
+    margin-right: 20px;
+}
+
+main {
+    max-width: auto;
 }
 
 .content {
@@ -30,15 +45,16 @@ li {
 }
 
 .blue-box {
-    max-width: 60%;
+    max-width: 70%;
     height: 200px;
     background-color: blue;
 }
 
 .absolute {
     position: absolute;
+
     top: -500px;
-    left: 700px;
+    left: 1020px;
 }
 
 img {

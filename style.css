@@ -1,11 +1,10 @@
-
 header {
     max-width: auto;
 }
 
 .flex1 {
     display: flex;
-    aligin-items: flex-end;
+    align-items: flex-end;
 }
 
 .main__ttl {
@@ -53,12 +52,11 @@ main {
 
 .absolute {
     position: absolute;
-
     top: -500px;
     left: 1020px;
 }
 
 img {
-    width: aute;
+    width: auto;
     height: 600px;
 }

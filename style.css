@@ -52,11 +52,11 @@ main {
 
 .absolute {
     position: absolute;
-    top: -500px;
-    left: 1020px;
+    top: -450px;
+    left: 900px;
 }
 
 img {
-    width: auto;
-    height: 600px;
+    width: 800px;
+    height: 550px;
 }

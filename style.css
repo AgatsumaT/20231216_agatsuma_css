@@ -1,5 +1,5 @@
 header {
-    max-width: auto;
+    max-width: 100%
 }
 
 .flex1 {
@@ -32,31 +32,28 @@ li {
 }
 
 main {
-    max-width: auto;
+    position: relative;
+    max-width: 100%;
 }
 
 .content {
     margin-top: 500px;
-    font-size: 80px;
-}
-
-.relative {
-    position: relative;
+    font-size: 70px;
 }
 
 .blue-box {
+
     max-width: 70%;
     height: 200px;
     background-color: blue;
 }
 
-.absolute {
-    position: absolute;
-    top: -450px;
-    left: 900px;
-}
-
 img {
-    width: 800px;
-    height: 550px;
+    width: 55%;
+    max-width: 100%;
+    max-height: 600px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -400px;
 }
